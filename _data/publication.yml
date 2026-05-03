@@ -14,7 +14,7 @@
     - Kaniav Kamary
     - Darren Wraith
   paper: https://link.springer.com/article/10.1007/s11222-026-10875-z
-  link: https://arxiv.org/abs/2510.20617
+  <!--link: https://arxiv.org/abs/2510.20617 -->
   code: https://cran.r-project.org/web/packages/ECMLE/index.html
   cite:
     - id: naderi_2026_evidence
