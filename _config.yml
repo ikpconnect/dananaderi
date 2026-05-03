@@ -121,14 +121,14 @@ linkedin_username: dana-naderi
 #youtube_username: your-handle
 # googleplus_username: +your-handle
 # orcid_username: 0000-0000-0000-0000      # uncomment and fill if you have one
-googlescholar_username: 5N8p4WcAAAAJ
+# googlescholar_username: 5N8p4WcAAAAJ
 
 
 # Additional icon links — add any extra links you want shown next to your social icons
 additional_links:
-  # - title: Google Scholar
-  #   icon: fab fa-google-scholar
-  #   url: https://scholar.google.com/citations?user=YOUR_ID
+ - title: Google Scholar
+   icon: fab fa-google-scholar
+   url: https://scholar.google.com/citations?user=5N8p4WcAAAAJ&hl=en&oi=sra
   # - title: ResearchGate
   #   icon: fab fa-researchgate
   #   url: https://www.researchgate.net/profile/Your-Profile
