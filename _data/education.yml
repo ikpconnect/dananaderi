@@ -6,27 +6,22 @@
 
 - layout: left
   name: Université Paris Dauphine — PSL (CEREMADE)
-  dates: "[TODO — start year] – Present"
+  dates: 2024 – Present
   qualification: PhD in Statistics
   description: |
-    <!-- TODO: replace the bracketed parts below with your real thesis info. -->
-    Thesis: <em>[TODO — Thesis title]</em>.
-    Advisor: <a href="https://example.com">[TODO — Advisor name]</a>.
-
-# -----------------------------------------------------------------------------
-# Add an entry per previous degree below. Duplicate this block as needed and
-# replace the [TODO] markers. Delete this whole block when you're done.
-# -----------------------------------------------------------------------------
-- layout: left
-  name: "[TODO — Master's institution]"
-  dates: "YYYY – YYYY"
-  qualification: "[TODO — e.g. MSc in Statistics]"
-  description: |
-    [TODO — thesis title, key project, or one-line description].
+    Supervised by Prof. Christian P. Robert and Dr. Kaniav Kamary.
 
 - layout: left
-  name: "[TODO — Bachelor's institution]"
-  dates: "YYYY – YYYY"
-  qualification: "[TODO — e.g. BSc in Mathematics]"
+  name: Allameh Tabataba'i University, Tehran
+  dates: "2020 – 2023"
+  qualification: MSc in Data Science
   description: |
-    [TODO — short note, or remove this entry].
+    [TODO — optional: thesis title or one-line description, or remove this `description:` block entirely if you don't want extra detail.]
+<!--
+- layout: left
+  name: "[TODO — your Bachelor's institution]"
+  dates: "YYYY – YYYY"
+  qualification: BSc in Mathematics
+  description: |
+    [TODO — optional one-line description, or remove this `description:` block.]
+    -->
