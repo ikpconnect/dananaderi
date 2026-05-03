@@ -157,40 +157,39 @@ about_content: | # this will include new lines to allow paragraphs
     <p>
       I'm <strong>Dana Naderi</strong>, a PhD student in Statistics at
       <a href="https://www.ceremade.dauphine.fr/">CEREMADE</a>,
-      <a href="https://dauphine.psl.eu/">Université Paris Dauphine — PSL</a>.
+      <a href="https://dauphine.psl.eu/">Université Paris Dauphine — PSL</a>,
+      which I joined in September 2024 under the supervision of
+      Prof. Christian P. Robert and Dr. Kaniav Kamary.
     </p>
     <p>
-      <!-- TODO: write 2–3 sentences about your background — previous degrees,
-           where you studied, and what brought you to CEREMADE. -->
-      Previously, I [TODO — fill in your background, e.g. "completed an MSc in X
-      at Y University, where I worked on Z"].
+      I hold an MSc in Data Science from
+      <a href="https://en.atu.ac.ir/">Allameh Tabataba'i University</a>
+      in Tehran, and a BSc in Mathematics.
     </p>
   </section>
 
   <section>
     <h3>Research Interests</h3>
     <p>
-      <!-- TODO: replace this paragraph with a short summary of the questions
-           that motivate your research. Two or three sentences is enough. -->
-      My research focuses on [TODO — high-level area, e.g. "high-dimensional
-      statistics", "stochastic optimization", "statistical learning theory"]. I'm
-      interested in [TODO — what specific questions you're trying to answer].
+      My research interests lie in <strong>Bayesian statistics</strong>, with a
+      particular focus on <strong>model selection</strong> and
+      <strong>mixture models</strong>.
     </p>
 
-    <details>
-    <summary><strong>▸ Topics I work on <span class="badge badge-accent">Click to expand</span></strong></summary>
-    <br>
-    <ul>
-      <li><strong>[TODO — Topic 1]</strong>: short description</li>
-      <li><strong>[TODO — Topic 2]</strong>: short description</li>
-      <li><strong>[TODO — Topic 3]</strong>: short description</li>
-    </ul>
-    </details>
+    # <details>
+    # <summary><strong>▸ Topics I work on <span class="badge badge-accent">Click to expand</span></strong></summary>
+    # <br>
+    # <ul>
+    #   <li><strong>[TODO — Topic 1]</strong>: short description</li>
+    #   <li><strong>[TODO — Topic 2]</strong>: short description</li>
+    #   <li><strong>[TODO — Topic 3]</strong>: short description</li>
+    # </ul>
+    # </details>
 
-    <p style="margin-top: 1em;">
-    <strong>Currently:</strong> [TODO — one sentence about what you're working
-    on right now, your thesis topic, or the project taking most of your time].
-    </p>
+    # <p style="margin-top: 1em;">
+    # <strong>Currently:</strong> [TODO — one sentence about what you're working
+    # on right now, your thesis topic, or the project taking most of your time].
+    # </p>
   </section>
 
   <section>
