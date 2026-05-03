@@ -6,7 +6,7 @@
         {% if include.item.gif %}
         <img src="{{ include.item.gif }}" alt="{{ include.item.title }}" loading="lazy" decoding="async">
         {% else %}
-        <img src="{{ include.item.image }}" alt="{{ include.item.title }}" loading="lazy" decoding="async">
+        <img src="{{ include.item.image | relative_url }}" alt="{{ include.item.title }}" loading="lazy" decoding="async">
         {% endif %}
     </div>
     {% else %}
