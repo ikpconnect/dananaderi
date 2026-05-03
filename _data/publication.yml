@@ -1,38 +1,45 @@
 # =============================================================================
 # PUBLICATIONS
 # =============================================================================
-# Most recent first. Uncomment the template below when you have a publication
-# to add. Keep the `[]` at the bottom until you've added at least one real
-# entry — without it Jekyll will crash on the publications page.
-# =============================================================================
 
-# - layout: left-publication
-#   title: "Paper title"
-#   venue: Conference or Journal Name
-#   year: 2024
-#   publication_type: Conference Paper      # or: Journal Article, Preprint, Workshop Paper, Thesis
-#   authors:
-#     - Dana Naderi
-#     - Co-author One
-#   paper: https://arxiv.org/abs/XXXX.XXXXX
-#   code: https://github.com/da_na_deri/repo
-#   website: https://example.com/project-page
-#   # image: /assets/images/paper-thumbnail.png
-#   cite:
-#     - id: naderi_2024_venue
-#       type: paper-conference
-#       authors:
-#         - family: Naderi
-#           given: Dana
-#       title: "Paper title"
-#       container-title: "Venue Name"
-#       issued:
-#         year: 2024
-#   details: |
-#     **Abstract:** A short paragraph summarizing the paper.
-#
-#     **Highlights:**
-#     - First contribution
-#     - Second contribution
 
-[]
+- layout: left-publication
+  title: "Approximating evidence via bounded harmonic means"
+  venue: Statistics and Computing
+  year: 2026
+  publication_type: Journal Article
+  authors:
+    - Dana Naderi
+    - Christian P. Robert
+    - Kaniav Kamary
+    - Darren Wraith
+  paper: https://link.springer.com/article/10.1007/s11222-026-10875-z
+  link: https://arxiv.org/abs/2510.20617
+  code: https://cran.r-project.org/web/packages/ECMLE/index.html
+  cite:
+    - id: naderi_2026_evidence
+      type: article-journal
+      authors:
+        - family: Naderi
+          given: Dana
+        - family: Robert
+          given: Christian P.
+        - family: Kamary
+          given: Kaniav
+        - family: Wraith
+          given: Darren
+      title: "Approximating evidence via bounded harmonic means"
+      container-title: "Statistics and Computing"
+      issued:
+        year: 2026
+      DOI: 10.1007/s11222-026-10875-z
+  details: |
+    **Abstract:** Efficient Bayesian model selection relies on the model evidence
+    or marginal likelihood, whose computation often requires evaluating an
+    intractable integral. We propose the Elliptical Covering Marginal Likelihood
+    Estimator (ECMLE), based on covering the highest posterior density region with
+    non-overlapping ellipsoids. ECMLE eliminates the infinite-variance issue of
+    the original harmonic mean estimator, allows exact volume computation, and
+    works in multimodal settings.
+
+    **Software:** R package [`ECMLE`](https://cran.r-project.org/web/packages/ECMLE/index.html) on CRAN.
