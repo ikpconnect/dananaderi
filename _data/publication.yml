@@ -8,7 +8,6 @@
   venue: Statistics and Computing
   year: 2026
   publication_type: Journal Article
-  image: /images/ecmle-thumbnail.png
   authors:
     - Dana Naderi
     - Christian P. Robert
@@ -17,6 +16,7 @@
   paper: https://link.springer.com/article/10.1007/s11222-026-10875-z
   <!--link: https://arxiv.org/abs/2510.20617 -->
   code: https://cran.r-project.org/web/packages/ECMLE/index.html
+  image: /images/ecmle-thumbnail.png
   cite:
     - id: naderi_2026_evidence
       type: article-journal
