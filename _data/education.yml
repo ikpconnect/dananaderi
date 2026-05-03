@@ -15,9 +15,9 @@
   name: Allameh Tabataba'i University, Tehran
   dates: "2020 – 2023"
   qualification: MSc in Data Science
+  <!--
   description: |
     [TODO — optional: thesis title or one-line description, or remove this `description:` block entirely if you don't want extra detail.]
-<!--
 - layout: left
   name: "[TODO — your Bachelor's institution]"
   dates: "YYYY – YYYY"
