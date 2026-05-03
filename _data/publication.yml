@@ -1,0 +1,38 @@
+# =============================================================================
+# PUBLICATIONS
+# =============================================================================
+# Most recent first. Uncomment the template below when you have a publication
+# to add. Keep the `[]` at the bottom until you've added at least one real
+# entry — without it Jekyll will crash on the publications page.
+# =============================================================================
+
+# - layout: left-publication
+#   title: "Paper title"
+#   venue: Conference or Journal Name
+#   year: 2024
+#   publication_type: Conference Paper      # or: Journal Article, Preprint, Workshop Paper, Thesis
+#   authors:
+#     - Dana Naderi
+#     - Co-author One
+#   paper: https://arxiv.org/abs/XXXX.XXXXX
+#   code: https://github.com/da_na_deri/repo
+#   website: https://example.com/project-page
+#   # image: /assets/images/paper-thumbnail.png
+#   cite:
+#     - id: naderi_2024_venue
+#       type: paper-conference
+#       authors:
+#         - family: Naderi
+#           given: Dana
+#       title: "Paper title"
+#       container-title: "Venue Name"
+#       issued:
+#         year: 2024
+#   details: |
+#     **Abstract:** A short paragraph summarizing the paper.
+#
+#     **Highlights:**
+#     - First contribution
+#     - Second contribution
+
+[]

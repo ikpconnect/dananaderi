@@ -1,0 +1,52 @@
+# _data/skills.yml
+#
+# =============================================================================
+# TEMPLATE — copy, uncomment, and fill in your data
+# =============================================================================
+#
+# --- TECHNICAL / RESEARCH SKILLS ---
+#
+# - layout: left-skill
+#   type: technical          # or: research
+#   items:
+#     - category: Category Name
+#       items:
+#         - name: Skill Name
+#           tool-type: Group Label   # skills with the same tool-type are grouped together
+#           notes: Short description of proficiency / context
+#           projects:                # optional
+#             - name: Project Name
+#               link: https://github.com/user/repo
+#
+#         - name: Another Skill
+#           tool-type: Group Label
+#           notes: Notes here
+#
+#     - category: Another Category
+#       items:
+#         - name: Skill Name
+#           tool-type: Group Label
+#           notes: Notes here
+#
+# --- LANGUAGE SKILLS ---
+#
+# - layout: left-skill
+#   type: language
+#   items:
+#     - name: English
+#       proficiency: Fluent (Professional working)
+#     - name: Kurdish
+#       proficiency: Native
+#
+# --- INTERESTS ---
+#
+# - layout: left-skill
+#   type: interest
+#   items:
+#     - notes: |
+#         **Research Interests**: Description here.<br><br>
+#         **Personal**: Something else here.
+#
+# =============================================================================
+
+[]

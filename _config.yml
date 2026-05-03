@@ -1,0 +1,317 @@
+# Site
+# Site URL configuration:
+#  - For a USER site (repo named `<user>.github.io`):
+#       url:     "https://<user>.github.io"
+#       baseurl: ""
+#  - For a PROJECT site (any other repo name):
+#       url:     "https://<user>.github.io"
+#       baseurl: "/<repo-name>"      <-- the leading slash matters
+#  - For local development with `jekyll serve`, the safest setting is:
+#       url:     ""
+#       baseurl: ""
+#
+# Currently configured for the project site at ikpconnect/dananaderi:
+url: "https://ikpconnect.github.io"
+baseurl: "/dananaderi"
+description: "Personal website of Dana Naderi, PhD student in Statistics at CEREMADE, Université Paris Dauphine — PSL."
+image: images/profile.jpg
+logo: 'images/profile.jpg'
+favicon: 'images/profile.jpg'
+# google_analytics: 'UA-XXXXXXXX-X'
+#disqus: 'your-disqus-shortname'
+#mailchimp-list: 'https://example.us11.list-manage.com/subscribe/post?u=XXXXXXXX&amp;id=XXXXXXXX'
+include:
+  - _pages
+  - _static
+#permalink: /:title/
+
+
+
+
+# --------------------------------------------------------------------------------------
+
+repository: https://github.com/ikpconnect/dananaderi
+# favicon: Directory of your favicon (eg. images/favicon.ico)(optional)
+
+# Personal info
+name: Dana Naderi
+title: PhD Student in Statistics · CEREMADE, Université Paris Dauphine — PSL
+email: naderi@ceremade.dauphine.fr
+#phone: Your phone number (optional)
+#website: https://ikpconnect.github.io/dananaderi
+
+# Dark Mode (true/false/never)
+darkmode: true
+
+# =============================================================================
+# COLOR PALETTE CONFIGURATION
+# =============================================================================
+# Central theme configuration - change these values to switch palettes site-wide
+#
+# DARK MODE BACKGROUND OPTIONS:
+#   - "near-black"    : #0f0f0f  (Default - deep black, elegant)
+#   - "pure-black"    : #000000  (OLED friendly, maximum contrast)
+#   - "charcoal"      : #121212  (Material Design dark, softer)
+#   - "slate"         : #1a202c  (Blue-tinted, original theme)
+#   - "midnight"      : #0d1117  (GitHub dark, subtle blue)
+#
+# LIGHT MODE BACKGROUND OPTIONS:
+#   - "white"         : #ffffff  (Default - pure white)
+#   - "snow"          : #fafafa  (Slightly off-white, easier on eyes)
+#   - "cream"         : #fffdf7  (Warm white, paper-like)
+#   - "cool-gray"     : #f8fafc  (Cool tinted white)
+#
+# ACCENT COLOR OPTIONS:
+#   - "vivid-red"     : #ef4444  (Default - bright, prominent red)
+#   - "crimson"       : #dc2626  (Deeper red, more classic)
+#   - "coral"         : #f97316  (Orange-red, warm)
+#   - "rose"          : #e11d48  (Pink-red, modern)
+#   - "ruby"          : #be123c  (Dark red, sophisticated)
+#
+# NAVBAR STYLE OPTIONS:
+#   - "dark"          : Dark navbar (Default - #0f0f0f, matches dark mode)
+#   - "darker"        : Same as dark (#0f0f0f)
+#   - "pure-black"    : Pure black navbar (#000000)
+#   - "slate"         : Slate blue navbar (#1e293b)
+# =============================================================================
+# // =========================================================================
+# // BADGE SYSTEM - Announcement badges with colored dot indicators
+# // =========================================================================
+# //
+# // USAGE (in HTML/Markdown):
+# //
+# //   PILL BADGES (subtle background with colored dot):
+# //     <span class="badge badge-new">New</span>
+# //     <span class="badge badge-hot">Trending</span>
+# //     <span class="badge badge-update">Updated</span>
+# //     <span class="badge badge-pinned">Pinned</span>
+# //     <span class="badge badge-soon">Soon</span>
+# //     <span class="badge badge-accent">Featured</span>   (uses site accent color)
+# //
+# //   MINIMAL BADGES (inline with text, just dot + text):
+# //     <span class="badge-minimal badge-new">New collaboration</span>
+# //     <span class="badge-minimal badge-hot">Hot topic</span>
+# //
+# //   WITH PULSE ANIMATION:
+# //     <span class="badge badge-new badge-pulse">New</span>
+# //
+# // =========================================================================
+
+palette:
+  dark_bg: "near-black"      # Dark mode background
+  light_bg: "white"          # Light mode background
+  accent: "crimson"          # Accent color (used for highlights, links hover, etc.)
+  navbar: "darker"           # Navbar style
+
+# Social links — uncomment and fill in the ones you use
+#twitter_username: your_twitter_handle
+#twitter:
+#  username: your_twitter_handle
+#  card: summary
+github_username: da_na_deri
+#medium_username: your-medium-username
+#stackoverflow_username: "00000001"
+#dribbble_username: your-handle
+#facebook_username: your-handle
+#flickr_username: your-handle
+#instagram_username: your-handle
+# linkedin_username: FILL-IN-YOUR-HANDLE   # the part after linkedin.com/in/
+#xing_username: your-handle
+#pinterest_username: your-handle
+#youtube_username: your-handle
+# googleplus_username: +your-handle
+# orcid_username: 0000-0000-0000-0000      # uncomment and fill if you have one
+# googlescholar_username: YOUR_SCHOLAR_ID  # uncomment and fill if you have one
+
+
+# Additional icon links — add any extra links you want shown next to your social icons
+additional_links:
+  # - title: Google Scholar
+  #   icon: fab fa-google-scholar
+  #   url: https://scholar.google.com/citations?user=YOUR_ID
+  # - title: ResearchGate
+  #   icon: fab fa-researchgate
+  #   url: https://www.researchgate.net/profile/Your-Profile
+  # - title: Kaggle
+  #   icon: fab fa-kaggle
+  #   url: https://www.kaggle.com/your-handle
+
+
+#- title: another link
+#icon: font awesome brand icon name (eg. fa-twitter) (https://fontawesome.com/icons?d=gallery&s=brands&m=free)
+#url: Link url (eg. https://google.com)
+
+# Google Analytics and Tag Manager
+# Using more than one of these may cause issues with reporting
+# gtm: "GTM-0000000"
+# gtag: "UA-00000000-0"
+# google_analytics: "UA-00000000-0"
+
+# About Section
+# about_title: About Me (Use this to override about section title)
+about_profile_image: images/profile.jpg #Directory of profile image (eg. images/profile.jpg)
+about_content: | # this will include new lines to allow paragraphs
+
+  <section>
+    <h3>About</h3>
+    <p>
+      I'm <strong>Dana Naderi</strong>, a PhD student in Statistics at
+      <a href="https://www.ceremade.dauphine.fr/">CEREMADE</a>,
+      <a href="https://dauphine.psl.eu/">Université Paris Dauphine — PSL</a>.
+    </p>
+    <p>
+      <!-- TODO: write 2–3 sentences about your background — previous degrees,
+           where you studied, and what brought you to CEREMADE. -->
+      Previously, I [TODO — fill in your background, e.g. "completed an MSc in X
+      at Y University, where I worked on Z"].
+    </p>
+  </section>
+
+  <section>
+    <h3>Research Interests</h3>
+    <p>
+      <!-- TODO: replace this paragraph with a short summary of the questions
+           that motivate your research. Two or three sentences is enough. -->
+      My research focuses on [TODO — high-level area, e.g. "high-dimensional
+      statistics", "stochastic optimization", "statistical learning theory"]. I'm
+      interested in [TODO — what specific questions you're trying to answer].
+    </p>
+
+    <details>
+    <summary><strong>▸ Topics I work on <span class="badge badge-accent">Click to expand</span></strong></summary>
+    <br>
+    <ul>
+      <li><strong>[TODO — Topic 1]</strong>: short description</li>
+      <li><strong>[TODO — Topic 2]</strong>: short description</li>
+      <li><strong>[TODO — Topic 3]</strong>: short description</li>
+    </ul>
+    </details>
+
+    <p style="margin-top: 1em;">
+    <strong>Currently:</strong> [TODO — one sentence about what you're working
+    on right now, your thesis topic, or the project taking most of your time].
+    </p>
+  </section>
+
+  <section>
+    <h3>News</h3>
+    <ul>
+        <li><span class="badge badge-new badge-pulse">New</span> [TODO — recent milestone, e.g. "Started PhD at CEREMADE"] — Month Year</li>
+        <li>[TODO — another update] — Month Year</li>
+    </ul>
+  </section>
+
+  <!-- Optional sections — uncomment when you have content to put in them.
+
+  <section>
+    <h3>Writing</h3>
+    <p>
+      <a href="/blog/your-post-slug/" style="font-weight: 500;">Post Title</a> —
+      <span style="color: var(--text-muted);">Short teaser.</span>
+    </p>
+  </section>
+
+  <section>
+    <h3>Awards</h3>
+    <ul>
+        <li>Award name — Granting institution, Year</li>
+    </ul>
+  </section>
+
+  -->
+
+
+# Projects Section
+# projects_title: Projects #(Use this to override about projects section title)
+
+# Experience Section
+# experience_title: Experience #(Use this to override about experience section title)
+
+# Education Section
+education_title: Education #(Use this to override about education section title)
+publication_title: Publications
+skills_title: Skills
+# More Section
+# more_title: A Little More About Me #(Use this to override about more section title)
+
+
+# more content
+more_content: | # this will include new lines to allow paragraphs
+
+
+# Footer
+footer_show_references: true
+
+# Build settings
+#theme: modern-resume-theme (Use this is you are hosting your resume yourself)
+# remote_theme: sproogen/modern-resume-theme (Use this if you are hosting your resume on GitHub)
+#theme: jekyll-theme-hacker
+
+# Markdown processor settings
+markdown: kramdown
+kramdown:
+  math_engine: mathjax
+  syntax_highlighter: rouge
+  syntax_highlighter_opts:
+    block:
+      line_numbers: false
+
+# =============================================================================
+# CITATION STYLE CONFIGURATION
+# =============================================================================
+# Academic citation/reference style for blog posts.
+# Supported styles:
+#   - "apa"       : APA 7th Edition (Author, Year. Title. URL)
+#   - "ieee"      : IEEE (Author, "Title," Year. [Online]. Available: URL)
+#   - "chicago"   : Chicago Author-Date (Author. Year. "Title." URL)
+#   - "vancouver" : Vancouver/Numeric (Author. Title. Year. URL) [default]
+# =============================================================================
+citation_style: "apa"
+
+# Collections for internal blog posts (separate from project posts in _posts/)
+collections:
+  blog_posts:
+    output: true
+    permalink: /blog/:title/
+
+defaults:
+  - scope:
+      path: ""
+    values:
+      image: images/profile.jpg
+  - scope:
+      path: _posts
+    values:
+      layout: post
+      permalink: /projects/:title/
+  - scope:
+      path: _pages
+    values:
+      layout: page
+  - scope:
+      path: ""
+      type: blog_posts
+    values:
+      layout: post
+sass:
+  sass_dir: _sass
+  style: compressed
+
+plugins:
+  - jekyll-seo-tag
+  - jekyll-sitemap
+  - jekyll-feed
+  - jekyll-redirect-from
+
+exclude: [
+  "Gemfile",
+  "Gemfile.lock",
+  "node_modules",
+  "vendor/bundle/",
+  "vendor/cache/",
+  "vendor/gems/",
+  "vendor/ruby/",
+  "lib/",
+  "scripts/",
+  "docker-compose.yml",
+]

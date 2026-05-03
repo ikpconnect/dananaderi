@@ -1,0 +1,24 @@
+# =============================================================================
+# EXPERIENCE — work / research positions
+# =============================================================================
+# Most recent first. Uncomment the template below to add an entry.
+# Keep the `[]` at the bottom until you've added at least one real entry.
+# =============================================================================
+
+# - layout: left
+#   company: CEREMADE, Université Paris Dauphine — PSL
+#   link: ceremade.dauphine.fr
+#   job_title: PhD Student
+#   dates: Month YYYY - Present
+#   description: |
+#     Brief description of your research role. Mention your group, advisor,
+#     or research topic if you'd like.
+
+# - layout: left
+#   company: Previous role
+#   job_title: Title
+#   dates: Month YYYY - Month YYYY
+#   description: |
+#     What you worked on.
+
+[]

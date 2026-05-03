@@ -1,0 +1,32 @@
+# =============================================================================
+# EDUCATION
+# =============================================================================
+# Most recent first.
+# =============================================================================
+
+- layout: left
+  name: Université Paris Dauphine — PSL (CEREMADE)
+  dates: "[TODO — start year] – Present"
+  qualification: PhD in Statistics
+  description: |
+    <!-- TODO: replace the bracketed parts below with your real thesis info. -->
+    Thesis: <em>[TODO — Thesis title]</em>.
+    Advisor: <a href="https://example.com">[TODO — Advisor name]</a>.
+
+# -----------------------------------------------------------------------------
+# Add an entry per previous degree below. Duplicate this block as needed and
+# replace the [TODO] markers. Delete this whole block when you're done.
+# -----------------------------------------------------------------------------
+- layout: left
+  name: "[TODO — Master's institution]"
+  dates: "YYYY – YYYY"
+  qualification: "[TODO — e.g. MSc in Statistics]"
+  description: |
+    [TODO — thesis title, key project, or one-line description].
+
+- layout: left
+  name: "[TODO — Bachelor's institution]"
+  dates: "YYYY – YYYY"
+  qualification: "[TODO — e.g. BSc in Mathematics]"
+  description: |
+    [TODO — short note, or remove this entry].

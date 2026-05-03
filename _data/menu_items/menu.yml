@@ -1,0 +1,14 @@
+docs_list_title: Site Navigation
+docs:
+
+  - title: Home
+    url: /
+
+  - title: Publications
+    url: /publications
+
+  - title: Projects
+    url: /projects-page
+
+  - title: Blog
+    url: /blog

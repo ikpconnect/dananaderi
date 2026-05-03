@@ -1,0 +1,18 @@
+# =============================================================================
+# PROJECTS — homepage section
+# =============================================================================
+# Add an entry by uncommenting the template below and filling it in.
+# Keep the `[]` at the bottom until you've added at least one real entry — it
+# makes this file a valid empty YAML list (without it, Jekyll will crash).
+# =============================================================================
+
+# - layout: left
+#   name: Project Name
+#   link: github.com/da_na_deri/project-name
+#   github: da_na_deri/project-name
+#   description: >
+#     <b>One-line summary.</b> A bit more detail about what it does.<br>
+#     <span style="color:#888">Languages · Tools</span><br>
+#     <img alt="GitHub Repo stars" src="https://img.shields.io/github/stars/da_na_deri/project-name?style=social">
+
+[]
