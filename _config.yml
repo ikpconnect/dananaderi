@@ -197,7 +197,7 @@ about_content: | # this will include new lines to allow paragraphs
     <h3>News</h3>
     <ul>
         <li><span class="badge badge-new badge-pulse">New</span> Our paper <em><a href="https://link.springer.com/article/10.1007/s11222-026-10875-z">"Approximating evidence via bounded harmonic means"</a></em> is out in <em>Statistics and Computing</em> — April 2026 <!-- TODO: verify month --></li>
-        <li>R package <a href="https://cran.r-project.org/web/packages/ECMLE/index.html"><code>ECMLE</code></a> published on CRAN — <!-- TODO: month/year from CRAN page --></li>
+        <li>R package <a href="https://cran.r-project.org/web/packages/ECMLE/index.html"><code>ECMLE</code></a> published on CRAN — March 2026</li>
         <li>Preprint <em><a href="https://arxiv.org/abs/2510.20617">"Approximating evidence via bounded harmonic means"</a></em> posted on arXiv — October 2025</li>
         <li>Started PhD at CEREMADE — September 2024</li>
     </ul>
