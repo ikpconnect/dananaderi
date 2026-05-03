@@ -175,23 +175,24 @@ about_content: | # this will include new lines to allow paragraphs
       particular focus on <strong>model selection</strong> and
       <strong>mixture models</strong>.
     </p>
+    <!--
+    <details>
+    <summary><strong>▸ Topics I work on <span class="badge badge-accent">Click to expand</span></strong></summary>
+    <br>
+    <ul>
+      <li><strong>[TODO — Topic 1]</strong>: short description</li>
+      <li><strong>[TODO — Topic 2]</strong>: short description</li>
+      <li><strong>[TODO — Topic 3]</strong>: short description</li>
+    </ul>
+    </details>
 
-    # <details>
-    # <summary><strong>▸ Topics I work on <span class="badge badge-accent">Click to expand</span></strong></summary>
-    # <br>
-    # <ul>
-    #   <li><strong>[TODO — Topic 1]</strong>: short description</li>
-    #   <li><strong>[TODO — Topic 2]</strong>: short description</li>
-    #   <li><strong>[TODO — Topic 3]</strong>: short description</li>
-    # </ul>
-    # </details>
-
-    # <p style="margin-top: 1em;">
-    # <strong>Currently:</strong> [TODO — one sentence about what you're working
-    # on right now, your thesis topic, or the project taking most of your time].
-    # </p>
+    <p style="margin-top: 1em;">
+    <strong>Currently:</strong> [TODO — one sentence about what you're working
+    on right now, your thesis topic, or the project taking most of your time].
+    </p>
+    -->
   </section>
-
+  
   <section>
     <h3>News</h3>
     <ul>
